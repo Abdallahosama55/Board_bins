@@ -1,0 +1,16 @@
+html {
+    font-size: 16px; /* Default size */
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px; /* Smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    html {
+      font-size: 12px; /* Even smaller screens */
+    }
+  }
+  

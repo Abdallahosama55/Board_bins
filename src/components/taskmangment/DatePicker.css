@@ -1,0 +1,86 @@
+/* DatePicker.css */
+.date-picker {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+  }
+  
+  .navigation > * {
+    cursor: pointer;
+  }
+  
+  .days {
+    display: flex;
+    width: 100%;
+    background-color: #e7e7e7;
+    color: #333;
+  }
+  
+  .day {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .day:last-child {
+    border-right: none;
+  }
+  
+  .dates {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .date {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .date:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .date.selected {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  /* Ensure that the border doesn't appear on the right of the 7th and 14th elements, etc. */
+  .date:nth-child(7n) {
+    border-right: none;
+  }
+  
+  /* Responsive to different widths, assuming a max width of 7 dates */
+  @media (max-width: 600px) {
+    .date {
+      width: calc(100% / 3);
+    }
+    .date:nth-child(7n) {
+      border-right: 1px solid #ddd;
+    }
+    .date:nth-child(3n) {
+      border-right: none;
+    }
+  }
+  

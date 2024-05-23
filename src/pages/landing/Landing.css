@@ -1,0 +1,52 @@
+.Home .search-con .overlay {
+   right: 1rem;
+   top: 1rem;
+   bottom: auto;
+}
+.Home .started-check {
+   position: absolute;
+   top: 0.7rem;
+   left: 0.6rem;
+   width: 1rem;
+}
+.Home .img1bg {
+   position: absolute;
+   background-image: url("../../assets/landing/assisstbg.png");
+   background-size: cover;
+   width: 33rem;
+   top: -5rem;
+   height: 27rem;
+   right: 0px;
+   margin-left: auto;
+   background-position: center left;
+}
+.Home .img2bg {
+   position: absolute;
+   background-image: url("../../assets/landing/assisstbg2.png");
+   background-size: cover;
+   width: 50%;
+   top: 0px;
+   /* top: ;
+    left: ;
+    bottom: ;
+    right: ; */
+}
+.Home .work .bg-1 {
+}
+.Home .work .bg-2 {
+}
+.Home .work .bg-3 {
+   background: #fdfdfd;
+
+   backdrop-filter: blur(48.362701416015625px);
+}
+
+.Home .how .css-heg063-MuiTabs-flexContainer {
+   justify-content: center;
+   margin-top: 2rem;
+}
+@media screen and (max-width: 1700px) {
+   .welcome-over {
+      right: 1rem !important;
+   }
+}

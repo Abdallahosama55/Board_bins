@@ -1,0 +1,12 @@
+ .imgs .bg1{
+    background-image: url('../../assets/service/img1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .imgs .bg2{
+    background-image: url('../../assets/service/img2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

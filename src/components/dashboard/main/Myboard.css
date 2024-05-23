@@ -1,0 +1,49 @@
+.Myboard {
+}
+.Myboard .search-myboard {
+   border: none !important;
+}
+.Myboard .search-con .overlay {
+   right: 1rem;
+   top: 1rem;
+   bottom: auto;
+}
+/* .Myboard .service .select-sort {
+   
+   border-radius: 5px;
+   background-color: #fff;
+   cursor: pointer;
+   position: relative;
+}
+.Myboard .service .select-sort::after {
+   content: "25BC"; 
+   width: 1rem;
+   height: 1rem;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   transform: translateY(-50%);
+   pointer-events: none; 
+} */
+
+.Myboard .items {
+   box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.1);
+}
+.Myboard .rescent .recent-p {
+   color: #000;
+   font-feature-settings: "clig" off, "liga" off;
+   font-family: Poppins;
+   font-size: 1rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 140%; /* 1.4rem */
+}
+.Myboard .shadow-input {
+   border-radius: 0.97331rem;
+   border: 0.708px solid #e8e8e8;
+   background: #fff;
+   box-shadow: 0px 0px 9.344px 0px rgba(195, 195, 195, 0.25);
+}
+.Myboard .shadow-input:focus {
+   border: none;
+}
